@@ -74,7 +74,7 @@ function App() {
             </div>
           </section>
           <section className="w-full lg:w-1/2 xl:w-1/2 xl:ml-2 lg:ml-2">
-            <section className=" shadow-sm xl:shadow-lg rounded-lg">
+            <section className=" shadow-lg rounded-lg">
               <h1 className="text-2xl font-bold mt-6 mx-10 pb-2 border-b border-black ">
                 Education
               </h1>
