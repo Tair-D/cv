@@ -18,7 +18,7 @@ function App() {
                 className="rounded-full h-32 shadow-xl border-black mt-6 ml-8 mb-4"
                 src={require("./images/me.jpg")}
               />
-              <section className="w-full ml-20 mt-6 ">
+              <section className="w-full ml-20 sm:ml-16 mt-6 ">
                 <h1 className="text-3xl font-extrabold">Dospayev Tair </h1>
                 <p className="text-xl font-hairline">Software Developer</p>
                 <div class="flex flex-wrap mt-2">
