@@ -11,8 +11,8 @@ function App() {
   return (
     <section className="bg-gray-100">
       <section className="container mx-auto">
-        <section className="flex">
-          <section className="xl:w-1/2 lg:w-1/2 shadow-lg mt-12 rounded-lg">
+        <section className="flex flex-wrap">
+          <section className="w-full xl:w-1/2 lg:w-1/2 shadow-lg xl:mt-12 lg:mt-12 rounded-lg xl:-ml-2 lg:-ml-2">
             <section className="flex">
               <img
                 className="rounded-full h-32 shadow-xl border-black mt-6 ml-8 mb-4"
@@ -25,27 +25,30 @@ function App() {
                   <img src="https://img.icons8.com/material-sharp/24/000000/telegram-app.png" />
                   <span class="ml-2 text-gray-600">@tairD</span>
                 </div>
-                <p class="text-gray-600">tair.dospayev@gmail.com</p>
+                <div class="flex flex-wrap mt-2">
+                  <img src="https://img.icons8.com/material-sharp/24/000000/telegram-app.png" />
+                  <span class="ml-2 text-gray-600">+7 771 999 29 28</span>
+                </div>
+                <p class="text-gray-600 pb-2">tair.dospayev@gmail.com</p>
               </section>
             </section>
           </section>
-          <section className="xl:w-1/2 lg:w-1/2 shadow-lg mt-12 rounded-lg ml-2">
-            <h1 className="text-2xl font-bold mt-6 ml-10 pb-2 border-b border-black ">
+          <section className="w-full invisible -mt-20 xl:visible lg:visible xl:w-1/2 lg:w-1/2 shadow-lg xl:mt-12 lg:mt-12 rounded-lg xl:ml-2 lg:ml-2 ">
+            <h1 className="text-2xl font-bold mt-6 mx-10 pb-2 border-b border-black ">
               Profile
             </h1>
-            <p className="pl-12">
+            <p className="px-12 text-left">
               Hello, my name is Tair. I am iOS and front-end developer and hard
               problem solver.
             </p>
-            {/* </section> */}
           </section>
         </section>
-        <section className="flex mt-20">
-          <section className="xl:w-1/2 shadow-lg rounded-lg">
-            <h1 className="text-2xl font-bold  mt-6 ml-10 pb-2 border-b border-black ">
+        <section className="flex flex-wrap mt-2 xl:mt-20 lg:mt-20">
+          <section className="w-full lg:w-1/2 xl:w-1/2 shadow-lg rounded-lg xl:-ml-2 lg:-ml-2">
+            <h1 className="text-2xl font-bold  mt-6 mx-10 pb-2 border-b border-black ">
               Experience
             </h1>
-            <div className="pl-12 pb-12">
+            <div className="px-12 pb-12">
               <section id="current project">
                 <h2 className=" text-xl font-semibold">Senim</h2>
                 <p className="text-xs font-semibold">(01.2020-present)</p>
@@ -70,9 +73,9 @@ function App() {
               </section>
             </div>
           </section>
-          <section className="xl:w-1/2 ml-2 ">
-            <section className=" shadow-lg rounded-lg">
-              <h1 className="text-2xl font-bold mt-6 ml-10 pb-2 border-b border-black ">
+          <section className="w-full lg:w-1/2 xl:w-1/2 xl:ml-2 lg:ml-2">
+            <section className=" shadow-sm xl:shadow-lg rounded-lg">
+              <h1 className="text-2xl font-bold mt-6 mx-10 pb-2 border-b border-black ">
                 Education
               </h1>
               <div className="ml-12 mb-12">
@@ -102,18 +105,18 @@ function App() {
                 </section>
               </div>
             </section>
-            <section className="shadow-lg rounded-lg mt-2">
-              <h1 className="text-2xl font-bold mt-6 ml-10 pb-2 border-b border-black ">
+            <section className=" shadow-sm xl:shadow-lg rounded-lg mt-2">
+              <h1 className="text-2xl font-bold mt-6 mx-10 pb-2 border-b border-black ">
                 Programming Skills
               </h1>
-              <section className="flex flex-row pb-6">
-                <section className=" xl:w-1/2 pl-12 text-base">
+              <section className="flex flex-row pb-2">
+                <section className=" w-1/2 pl-12 text-base">
                   <p className="mt-1 text-sm">JavaScript</p>
                   <p className="mt-1 text-sm">React JS</p>
                   <p className="mt-1 text-sm">Swift</p>
                   <p className="mt-1 text-sm">C#</p>
                 </section>
-                <section className=" xl:w-1/2 pl-3 text-base">
+                <section className=" w-1/2 pl-3 text-base">
                   <p className="mt-1 text-sm">PHP</p>
                   <p className="mt-1 text-sm">HTML</p>
                   <p className="mt-1 text-sm">Tailwind CSS</p>
@@ -122,13 +125,6 @@ function App() {
               </section>
             </section>
           </section>
-        </section>
-
-        <section className="flex mt-20 mr-48 ml-48 shadow-lg rounded-lg">
-          <p className="text-sm mr-4">tair.dospayev@gmail.com</p>
-          <p className="text-sm mr-4">tair.dospayev@gmail.com</p>
-          <p className="text-sm mr-4">tair.dospayev@gmail.com</p>
-          <p className="text-sm mr-4">tair.dospayev@gmail.com</p>
         </section>
       </section>
     </section>
