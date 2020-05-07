@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {
@@ -18,7 +19,7 @@
     "build:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
     "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
   },
-  "eslintConfig": { 
+  "eslintConfig": {
     "extends": "react-app"
   },
   "browserslist": {
